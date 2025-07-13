@@ -37,7 +37,7 @@ def main():
 
     # ciclo para transformar mensaje codificado en letras del alfabeto y agregarlas a lista_str_out_ascii
     for character in lista_str_out:
-        lista_str_out_ascii.append(chr(character)) # tranforma ASCII en caracteres <chr> y agrega a lista 
+        lista_str_out_ascii.append(chr(character)) # transforma ASCII en caracteres <chr> y agrega a lista 
     
     print ("str_out: ", end = "") # imprime <str_out:> sin dejar espacios, ni saltos de linea 
     # itera en la lista_str_out_ascci (mensaje codificado) y va imprimiendo cada caracter, sin deja espacios
